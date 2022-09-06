@@ -1,0 +1,47 @@
+
+.nav_bar{
+
+    background-color: rgb(127, 255, 144);
+    padding: 3%;
+    
+
+}
+li {
+    float: right;
+  }
+  
+  li a {
+
+    color: white;
+    text-align: center;
+  }
+.slideshow{
+    position: relative;
+}
+
+.text2 {
+    border: 1px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
+    
+ .col {
+    float: center;  
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
